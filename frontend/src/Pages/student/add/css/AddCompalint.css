@@ -1,0 +1,10 @@
+/* Optional custom styles */
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+textarea.form-control {
+  resize: vertical;
+}

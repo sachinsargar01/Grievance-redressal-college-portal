@@ -1,0 +1,70 @@
+/* Admin Panel Styling */
+.sidebar {
+  height: 100vh; /* Sidebar takes full height of the viewport */
+  background-color: #ffffffec; /* Black background for sidebar */
+  color: #ffffff;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.sidebar .nav-item {
+  padding: 12px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.sidebar .nav-item:hover {
+  background-color: #d9d9d9; /* Darker black for hover effect */
+}
+
+.sidebar .nav-item.active {
+  background-color: #8dd7cb; /* Green background for active item */
+}
+
+.sidebar .nav-link {
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between icon and text */
+}
+
+.sidebar .nav-link .icon {
+  font-size: 1.2rem; /* Icon size */
+}
+
+/* Content area */
+.content {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for content */
+  height: 100vh; /* Full height content area */
+  overflow-y: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-body {
+  height: calc(
+    100vh - 80px
+  ); /* Adjust content height to fit within 100vh minus sidebar height */
+  overflow-y: auto; /* Scroll if content exceeds viewport height */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    height: auto; /* Sidebar is auto height for small screens */
+  }
+
+  .content {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,30 @@
+/* Ensure sidebar takes the full height of the screen */
+.sidebar {
+  height: 100vh; /* Full viewport height */
+  position: sticky; /* Make sidebar sticky */
+  top: 0; /* Stick the sidebar to the top */
+}
+
+/* Make content section responsive */
+.content {
+  min-height: 100vh;
+}
+
+/* Active state for sidebar items */
+.nav-item.active .nav-link {
+  background-color: #343a40; /* Highlight active tab */
+  font-weight: bold;
+}
+
+/* Optional: Remove margins/padding around entire page */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Optional: Add custom styles for spacing or borders */
+.sidebar h3 {
+  margin-bottom: 1.5rem;
+}

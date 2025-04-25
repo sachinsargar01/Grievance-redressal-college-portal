@@ -1,0 +1,40 @@
+/* App.css */
+
+
+
+.profilecontainer {
+    background-color: #fff;
+    padding: 20px;
+    min-height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.profileinfo {
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
